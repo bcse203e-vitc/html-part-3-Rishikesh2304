@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>FORM 5</title>
+</head>
+<body>
+    <h2>Travel booking form</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="fullName"><br><br>
+        <label>Contact Information:</label>
+        <input type="text" name="contact"><br><br>
+        <label>Destination:</label>
+        <select name="destination">
+          <option value="paris">Paris</option>
+          <option value="newyork">New York</option>
+          <option value="tokyo">Tokyo</option>
+        </select><br><br>
+        <label>Travel Dates:</label>
+        <input type="date" name="startDate">
+        <input type="date" name="endDate"><br><br>
+        <label>Number of Travelers:</label>
+        <input type="number" name="travelers" min="1"><br><br>
+        <label>Travel Class:</label>
+        <input type="radio" name="class" value="Economy">Economy
+        <input type="radio" name="class" value="Business">Business
+        <input type="radio" name="class" value="First">First Class<br><br>
+        <label>
+          <input type="checkbox" name="insurance"> Travel Insurance
+        </label><br><br>
+        <label>Total Cost:</label>
+        <input type="text" name="totalCost" readonly><br><br>
+        <button type="submit">Book Now</button>
+      </form>
+</body>
+</html>
